@@ -1,0 +1,444 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* ---------nav bar------------ */
+
+.navbar-nav {
+    margin-left: 2px;
+    line-height: 40px;
+    padding-left: 20px;
+    border: 0px solid red;
+    color: chocolate;
+}
+
+@media screen and ( max-width:900px) {
+    .navbar-nav {
+        margin-left: 13 px;
+    }
+}
+
+.nav-link {
+    color: chocolate;
+}
+
+.nav-link a:hover {
+    background-color: #EAC303;
+    color: yellow;
+}
+
+/* .navbar>.container-fluid{
+    text-align: center;
+
+    
+} */
+
+.navbar-brand {
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+@media screen and ( max-width:400px) {
+    .navbar-brand {
+        margin-left: -29px;
+    }
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+.nav-link:hover {
+    color: yellow;
+}
+
+/* .nav-link{
+    line-height: 50px;
+} */
+
+/* slider */
+
+.box1 {
+    width: 100%;
+    /* height: 650px; */
+}
+
+/* .carousel-inner{
+    margin-top: 55px;
+} */
+
+.text {
+    font-size: 50px;
+    bottom: 250px;
+    color: black;
+}
+
+@media screen and ( max-width:916px) {
+    .text {
+        font-size: 25px;
+        bottom: 121px;
+    }
+}
+
+@media screen and ( max-width:450px) {
+    .text {
+        font-size: 25px;
+        bottom: 26px;
+    }
+}
+
+.h1, h1 {
+    font-size: calc(1.375rem + 1.5vw);
+    font-size: 27px;
+    margin-left: 6px;
+    /* margin-bottom: -23px; */
+}
+
+.img:hover {
+    transform: scale(1.1);
+    transition: .5s ease-in-out;
+}
+
+/* background fixed */
+
+.call_section {
+    background: url(../img/bg1.jpg) center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 400px;
+    padding: 10% 0;
+    margin-top: 50px;
+}
+
+.block-reveal .box2 {
+    background-color: #121921;
+    color: #fff;
+    padding: 45px;
+    text-align: justify;
+    font-family: 'Dosis', sans-serif;
+}
+
+/* bacground fixed close */
+
+/* news and events */
+
+.card-1 {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-1::before {
+    position: absolute;
+    content: "";
+    width: 80%;
+    height: 220%;
+    background: rgba(228, 206, 9, 0.7);
+    top: -50%;
+    left: -100%;
+    z-index: 1;
+    transform: rotate(30deg);
+    transform-origin: center top 0;
+    transition: .5s;
+}
+
+.card-1:hover::before {
+    left: -15%;
+}
+
+.card-1 img {
+    width: 100%;
+    height: auto;
+}
+
+.card-text1 {
+    width: 100%;
+    padding: 0 20px;
+    position: absolute;
+    top: -80%;
+    color: #fff;
+    left: 0;
+    z-index: 2;
+    transition: 1.1s;
+}
+
+.card-text .h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card-1:hover .card-text {
+    top: 80px;
+}
+
+/*  news and event */
+
+.para {
+    margin-left: 400px;
+    font-size: 18px;
+}
+
+/* news event close */
+
+/* our blogs */
+
+.img1:hover {
+    transform: rotate(5deg) scale(1.1);
+    transition: all ease-in-out .3s;
+}
+
+.img1 {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.pullleft a {
+    text-decoration: none;
+    color: black;
+}
+
+.pullleft:hover {
+    color: yellow;
+}
+
+.pullleft a:hover {
+    color: yellow;
+}
+
+/* footer section */
+
+.footer-logo {
+    font-size: 40px;
+    /* margin-left: 18px; */
+    text-decoration: none;
+}
+
+.footer_section {
+    background: url("../img/pexels-imad-clicks-9883024.jpg") center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 700px;
+    padding: 10% 0;
+    margin-top: 50px;
+    opacity: 0.8;
+}
+
+.footer-text {
+    font-size: 25px;
+    color: white;
+    margin-top: 20px;
+    text-align: justify
+}
+
+.footer-text1 {
+    font-size: 18px;
+    color: grey;
+}
+
+
+@media screen and ( max-width:1000px) {
+    .move {
+        margin-right:60px;
+    }
+}
+
+
+
+
+.location {
+    line-height: 50px;
+    font-size: 15px;
+    color: grey;
+    margin-top: 50px;
+}
+
+.location ul a {
+    text-decoration: none;
+    color: Grey;
+}
+
+.tour-list {
+    font-size: 15px;
+    line-height: 50px;
+    list-style: none;
+}
+
+.tour-list li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.tour-list li a {
+    text-decoration: none;
+}
+
+.tour-list li a i:hover {
+    padding-left: 5px;
+    transition: all ease-in-out .3s;
+}
+
+.tour-list1 {
+    line-height: 55px;
+    list-style: none;
+}
+
+.tour-list1 a {
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+}
+
+ .footer-insta li {
+    padding: 0;
+    display: inline-block;
+    width: 32.74%;
+    margin: 0 0 4px;
+} 
+
+@media screen and ( max-width:1000px) {
+    .footer-insta li{
+        padding: 50px;
+    }
+}
+
+
+.footer-links-list {
+    padding: 0 0 10px 0;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.all-right{
+    margin-top: 50px;
+    
+}
+
+/* -------------------------------------about us page----------------- */
+
+.let {
+    margin-top: 80px;
+}
+
+.let1 {
+    margin-top: 50px;
+    text-align: justify;
+}
+
+.services {
+    margin-top: 50px;
+}
+
+/* section 1 */
+
+.section {
+    background-image: url("../img/about-update-3-e1525860532533.jpg");
+    background-repeat: no-repeat;
+}
+
+@media screen and ( max-width:1000px) {
+    .section {
+        background: none;
+    }
+}
+
+/* section 1 close */
+
+/* cilent */
+
+/* .cilent{
+      /* background: #dfc6b7; 
+      height: 800px;
+      padding: 20px;
+   }  */
+
+.cont-cilent {
+    margin-top: 60px;
+}
+
+.cilent-text {
+    text-align: center;
+}
+
+.c-row {
+    padding: 10px;
+}
+
+/* staff */
+
+.staff {
+    margin-top: 90px;
+}
+
+/* ---------------------about  page close------------------------  */
+
+/* ------------------------------blog page */
+
+.blogs {
+    margin-top: 90px;
+}
+
+.blog-img:hover {
+    transform: scale(.5);
+    transition: .5s ease-in-out;
+}
+
+/* col-2 */
+
+.news {
+    margin-top: 40px;
+    margin-left: 52px;
+    font-size: 18px;
+}
+
+.b-img {
+    width: 100px;
+}
+
+.pb-para {
+    height: 80px;
+}
+
+/* categories */
+
+.tour-list2 {
+    list-style-type: none;
+    line-height: 45px;
+}
+
+.tour-list2 a {
+    text-decoration: none;
+    color: #797D7F;
+    font-size: 15px;
+}
+
+.tour-list2 a:hover {
+    color: chocolate;
+}
+
+/* contact us  page start */
+
+.off {
+    margin-top: 70px;
+}
+
+@media screen and ( max-width:997px) {
+    .map {
+        width: 500px;
+    }
+}
+
+.botton {
+    background: crimson;
+    color: white;
+}
+
+.botton:hover {
+    color: yellow;
+}
